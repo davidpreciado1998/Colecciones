@@ -10,5 +10,11 @@ namespace Colecciones
     {
         public string Nombre { get; set; }
         public string Identificador { get; set; }
+
+        public Materia(string nombre, string identificador)
+        {
+            Nombre = nombre;
+            Identificador = identificador;
+        }
     }
 }
